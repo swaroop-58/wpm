@@ -10,7 +10,7 @@ var usersRouter = require('./app_server/routes/users');
 var app = express();
 
 //Connect to mongodb
-require('./app_server/models/db')
+require('./app_server/models/db');
 
 // view engine setup
 app.set('views', path.join(__dirname,'app_server', 'views'));
