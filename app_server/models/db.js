@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 require('./locations');
-const dbURI = 'MONGO_URI=mongodb+srv://aayush:aayush123@cluster0.uspm5no.mongodb.net/?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://aayush:aayush123@cluster0.uspm5no.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.connect(dbURI, {useNewUrlParser: true});
 mongoose.connection.on('connected', () => {
